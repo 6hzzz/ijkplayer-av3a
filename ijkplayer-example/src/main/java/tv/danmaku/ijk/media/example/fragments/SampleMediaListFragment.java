@@ -130,7 +130,7 @@ public class SampleMediaListFragment extends Fragment {
                 "}";
 
         mAdapter.addItem(manifest_string, "las test");
-        mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8", "bipbop basic master playlist");
+        mAdapter.addItem("http://audio8k-ws.cctv.cn/live/vivid.m3u8?token=eyJ3c1NlY3JldCI6ImQ3ZDcyNWJjZmZiNTY3NDhjYjAxMzE2MTU2Mjc3OWYzIiwid3NUaW1lIjoiMTY5NjYzNjc2NzkwNyIsImtleSI6IjhkMjdjMWE4LTU2MGQtNDI1Ni1iNTAxLWEwZTEwNWFlNzYzZSJ9&openId=a8c0c240-1ece-4ad0-94ab-f37aae861309&clientId=YT", "YunTing");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8", "bipbop basic 400x300 @ 232 kbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8", "bipbop basic 640x480 @ 650 kbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8", "bipbop basic 640x480 @ 1 Mbps");
